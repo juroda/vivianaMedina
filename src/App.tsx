@@ -311,7 +311,7 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-[#B8860B]">Sobre Mí</h2>
           <div className="flex flex-col md:flex-row items-center gap-12 mb-8">
             <img 
-              src="./public/Vivi.jpg"
+              src="/Vivi.jpg"
               alt="Viviana Medina"
               className="w-56 h-56 rounded-full object-cover shadow-lg border-4 border-[#B8860B]/20"
             />
