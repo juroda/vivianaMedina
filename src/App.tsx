@@ -8,22 +8,22 @@ const servicios = {
     descripcion: "Técnicas profesionales de depilación para diferentes áreas del cuerpo, garantizando resultados duraderos y la máxima suavidad.",
     imagen: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     items: [
-      { nombre: "Rostro completo", duracion: "30 minutos", precio: 6000, descripcion: "Depilación completa del rostro para una piel suave y radiante" },
-      { nombre: "Bozo o mentón", duracion: "20 minutos", precio: 1000, descripcion: "Depilación precisa de labio superior o mentón" },
-      { nombre: "Ceja", duracion: "40 minutos", precio: 850, descripcion: "Diseño y depilación de cejas personalizado" },
-      { nombre: "Nuca", duracion: "20 minutos", precio: 900, descripcion: "Depilación de la zona de la nuca para un look más limpio" },
-      { nombre: "Axilas", duracion: "30 minutos", precio: 4500, descripcion: "Depilación suave y efectiva de las axilas" },
-      { nombre: "Brazos completos", duracion: "40 minutos", precio: 6600, descripcion: "Depilación completa de brazos" },
-      { nombre: "Medio brazo", duracion: "40 minutos", precio: 3500, descripcion: "Depilación desde el codo hasta la muñeca" },
-      { nombre: "Abdomen completo", duracion: "40 minutos", precio: 4500, descripcion: "Depilación total del área abdominal" },
-      { nombre: "Línea", duracion: "20 minutos", precio: 800, descripcion: "Depilación de la línea alba" },
-      { nombre: "Espalda completa", duracion: "40 minutos", precio: 12500, descripcion: "Depilación total de la espalda" },
-      { nombre: "Cavado", duracion: "30 minutos", precio: 10000, descripcion: "Depilación de la zona íntima" },
-      { nombre: "Cavado Bikini", duracion: "20 minutos", precio: 10000, descripcion: "Depilación de la línea del bikini" },
-      { nombre: "Tiro de cola", duracion: "20 minutos", precio: 7500, descripcion: "Depilación de la zona interglútea" },
-      { nombre: "Glúteos", duracion: "15 minutos", precio: 8000, descripcion: "Depilación completa de glúteos" },
-      { nombre: "Pierna completa", duracion: "20 minutos", precio: 15500, descripcion: "Depilación desde el tobillo hasta la cadera" },
-      { nombre: "Media pierna", duracion: "20 minutos", precio: 13000, descripcion: "Depilación desde la rodilla hacia abajo o arriba" }
+      { nombre: "Rostro completo", duracion: "30 minutos", precio: "Consultable", descripcion: "Depilación completa del rostro para una piel suave y radiante" },
+      { nombre: "Bozo o mentón", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación precisa de labio superior o mentón" },
+      { nombre: "Ceja", duracion: "40 minutos", precio: "Consultable", descripcion: "Diseño y depilación de cejas personalizado" },
+      { nombre: "Nuca", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación de la zona de la nuca para un look más limpio" },
+      { nombre: "Axilas", duracion: "30 minutos", precio: "Consultable", descripcion: "Depilación suave y efectiva de las axilas" },
+      { nombre: "Brazos completos", duracion: "40 minutos", precio: "Consultable", descripcion: "Depilación completa de brazos" },
+      { nombre: "Medio brazo", duracion: "40 minutos", precio: "Consultable", descripcion: "Depilación desde el codo hasta la muñeca" },
+      { nombre: "Abdomen completo", duracion: "40 minutos", precio: "Consultable", descripcion: "Depilación total del área abdominal" },
+      { nombre: "Línea", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación de la línea alba" },
+      { nombre: "Espalda completa", duracion: "40 minutos", precio: "Consultable", descripcion: "Depilación total de la espalda" },
+      { nombre: "Cavado", duracion: "30 minutos", precio: "Consultable", descripcion: "Depilación de la zona íntima" },
+      { nombre: "Cavado Bikini", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación de la línea del bikini" },
+      { nombre: "Tiro de cola", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación de la zona interglútea" },
+      { nombre: "Glúteos", duracion: "15 minutos", precio: "Consultable", descripcion: "Depilación completa de glúteos" },
+      { nombre: "Pierna completa", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación desde el tobillo hasta la cadera" },
+      { nombre: "Media pierna", duracion: "20 minutos", precio: "Consultable", descripcion: "Depilación desde la rodilla hacia abajo o arriba" }
     ]
   },
   cejasYPestanas: {
@@ -31,10 +31,10 @@ const servicios = {
     descripcion: "Tratamientos especializados para realzar tu mirada y definir tus rasgos faciales.",
     imagen: "https://images.unsplash.com/photo-1583001809873-a128495da465?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
     items: [
-      { nombre: "Laminado de cejas + perfilado", duracion: "50 minutos", precio: 8500, descripcion: "Técnica que alisa y disciplina el pelo de las cejas, incluyendo diseño personalizado" },
-      { nombre: "Teñido de cejas", duracion: "30 minutos", precio: 7500, descripcion: "Coloración profesional para dar definición y profundidad a tus cejas" },
-      { nombre: "Lifting de pestañas", duracion: "1 hora", precio: 10500, descripcion: "Tratamiento que curva y eleva las pestañas naturales" },
-      { nombre: "Lifting de pestañas con teñido", precio: 20500, descripcion: "Combinación de lifting y tinte para una mirada más intensa" }
+      { nombre: "Laminado de cejas + perfilado", duracion: "50 minutos", precio: "Consultable", descripcion: "Técnica que alisa y disciplina el pelo de las cejas, incluyendo diseño personalizado" },
+      { nombre: "Teñido de cejas", duracion: "30 minutos", precio: "Consultable", descripcion: "Coloración profesional para dar definición y profundidad a tus cejas" },
+      { nombre: "Lifting de pestañas", duracion: "1 hora", precio: "Consultable", descripcion: "Tratamiento que curva y eleva las pestañas naturales" },
+      { nombre: "Lifting de pestañas con teñido", precio: "Consultable", descripcion: "Combinación de lifting y tinte para una mirada más intensa" }
     ]
   },
   exfoliantes: {
@@ -42,11 +42,11 @@ const servicios = {
     descripcion: "Tratamientos especializados para renovar la piel y tratar problemas específicos.",
     imagen: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     items: [
-      { nombre: "Dermoabrasión con Punta de Diamante Corporal", precio: 20000, descripcion: "Exfoliación profunda que elimina células muertas y mejora la textura de la piel" },
-      { nombre: "Tratamiento vello encarnado cavado", precio: 15000, descripcion: "Tratamiento específico para prevenir y tratar vellos enquistados en la zona íntima" },
-      { nombre: "Tratamiento Vello encarnado media pierna", precio: 10500, descripcion: "Tratamiento para vellos enquistados en media pierna" },
-      { nombre: "Tratamiento Vello encarnado pierna completa", precio: 20000, descripcion: "Tratamiento completo para vellos enquistados en toda la pierna" },
-      { nombre: "Tratamiento vello encarnado axilas", precio: 9000, descripcion: "Tratamiento específico para vellos enquistados en las axilas" }
+      { nombre: "Dermoabrasión con Punta de Diamante Corporal", precio: "Consultable", descripcion: "Exfoliación profunda que elimina células muertas y mejora la textura de la piel" },
+      { nombre: "Tratamiento vello encarnado cavado", precio: "Consultable", descripcion: "Tratamiento específico para prevenir y tratar vellos enquistados en la zona íntima" },
+      { nombre: "Tratamiento Vello encarnado media pierna", precio: "Consultable", descripcion: "Tratamiento para vellos enquistados en media pierna" },
+      { nombre: "Tratamiento Vello encarnado pierna completa", precio: "Consultable", descripcion: "Tratamiento completo para vellos enquistados en toda la pierna" },
+      { nombre: "Tratamiento vello encarnado axilas", precio: "Consultable", descripcion: "Tratamiento específico para vellos enquistados en las axilas" }
     ]
   },
   masajes: {
@@ -54,10 +54,10 @@ const servicios = {
     descripcion: "Diferentes técnicas de masajes terapéuticos y relajantes para tu bienestar.",
     imagen: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     items: [
-      { nombre: "Masaje localizado", duracion: "2 horas", precio: 27100, descripcion: "Masaje enfocado en áreas específicas de tensión" },
-      { nombre: "Masaje descontracturante", precio: 27500, descripcion: "Masaje terapéutico para aliviar contracturas y tensión muscular" },
-      { nombre: "Masaje con Piedras calientes", precio: 20800, descripcion: "Terapia con piedras volcánicas que combinan calor y masaje" },
-      { nombre: "Masaje con Pindas", precio: 30800, descripcion: "Masaje con saquitos de hierbas aromáticas calientes" }
+      { nombre: "Masaje localizado", duracion: "2 horas", precio: "Consultable", descripcion: "Masaje enfocado en áreas específicas de tensión" },
+      { nombre: "Masaje descontracturante", precio: "Consultable", descripcion: "Masaje terapéutico para aliviar contracturas y tensión muscular" },
+      { nombre: "Masaje con Piedras calientes", precio: "Consultable", descripcion: "Terapia con piedras volcánicas que combinan calor y masaje" },
+      { nombre: "Masaje con Pindas", precio: "Consultable", descripcion: "Masaje con saquitos de hierbas aromáticas calientes" }
     ]
   },
   manicuriaYPedicuria: {
@@ -65,19 +65,19 @@ const servicios = {
     descripcion: "Servicios completos para el cuidado y embellecimiento de manos y pies.",
     imagen: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     items: [
-      { nombre: "Belleza de manos", precio: 25000, descripcion: "Tratamiento completo para el cuidado de las manos" },
-      { nombre: "Semipermanente", precio: 30100, descripcion: "Esmaltado duradero con acabado profesional" },
-      { nombre: "Esculpidas en gel", precio: 30900, descripcion: "Extensiones de uñas modeladas en gel" },
-      { nombre: "Uñas mordidas", precio: 30900, descripcion: "Tratamiento especial para reconstrucción de uñas" },
-      { nombre: "Kapping gel", precio: 30500, descripcion: "Fortalecimiento de uñas naturales con gel" },
-      { nombre: "Spa de pies", precio: 21000, descripcion: "Tratamiento completo de relajación y cuidado para los pies" },
-      { nombre: "Belleza de pies + esmaltado semi", precio: 25100, descripcion: "Pedicuría completa con esmaltado semipermanente" },
-      { nombre: "Esmaltado común", precio: 5500, descripcion: "Aplicación de esmalte tradicional" },
-      { nombre: "Reconstrucción una uña", precio: 600, descripcion: "Reparación individual de uñas dañadas" },
-      { nombre: "Remoción acrílico", precio: 1100, descripcion: "Eliminación segura de uñas acrílicas" },
-      { nombre: "Remoción gel", precio: 980, descripcion: "Eliminación profesional de uñas de gel" },
-      { nombre: "Remoción Kapping", precio: 800, descripcion: "Eliminación de kapping de gel" },
-      { nombre: "Remoción semi", precio: 680, descripcion: "Eliminación de esmalte semipermanente" }
+      { nombre: "Belleza de manos", precio: "Consultable", descripcion: "Tratamiento completo para el cuidado de las manos" },
+      { nombre: "Semipermanente", precio: "Consultable", descripcion: "Esmaltado duradero con acabado profesional" },
+      { nombre: "Esculpidas en gel", precio: "Consultable", descripcion: "Extensiones de uñas modeladas en gel" },
+      { nombre: "Uñas mordidas", precio: "Consultable", descripcion: "Tratamiento especial para reconstrucción de uñas" },
+      { nombre: "Kapping gel", precio: "Consultable", descripcion: "Fortalecimiento de uñas naturales con gel" },
+      { nombre: "Spa de pies", precio: "Consultable", descripcion: "Tratamiento completo de relajación y cuidado para los pies" },
+      { nombre: "Belleza de pies + esmaltado semi", precio: "Consultable", descripcion: "Pedicuría completa con esmaltado semipermanente" },
+      { nombre: "Esmaltado común", precio: "Consultable", descripcion: "Aplicación de esmalte tradicional" },
+      { nombre: "Reconstrucción una uña", precio: "Consultable", descripcion: "Reparación individual de uñas dañadas" },
+      { nombre: "Remoción acrílico", precio: "Consultable", descripcion: "Eliminación segura de uñas acrílicas" },
+      { nombre: "Remoción gel", precio: "Consultable", descripcion: "Eliminación profesional de uñas de gel" },
+      { nombre: "Remoción Kapping", precio: "Consultable", descripcion: "Eliminación de kapping de gel" },
+      { nombre: "Remoción semi", precio: "Consultable", descripcion: "Eliminación de esmalte semipermanente" }
     ]
   },
   cosmetologia: {
@@ -85,12 +85,12 @@ const servicios = {
     descripcion: "Tratamientos faciales y corporales para el cuidado integral de tu piel.",
     imagen: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     items: [
-      { nombre: "Limpieza Profunda Facial", duracion: "1 hora", precio: 25400, descripcion: "Limpieza completa que incluye extracción de impurezas y tratamiento hidratante" },
+      { nombre: "Limpieza Profunda Facial", duracion: "1 hora", precio: "Consultable", descripcion: "Limpieza completa que incluye extracción de impurezas y tratamiento hidratante" },
       { nombre: "Limpieza profunda facial con tratamiento Acné", duracion: "2 horas", precio: "Consultable", descripcion: "Tratamiento especializado para pieles con acné" },
       { nombre: "Tratamiento AntiGE+revitalización", precio: "Consultable", descripcion: "Tratamiento anti-edad con efecto revitalizante" },
-      { nombre: "Limpieza de espalda", duracion: "1 hora", precio: 40500, descripcion: "Limpieza profunda de la zona de la espalda" },
-      { nombre: "Exfoliación corporal", precio: 40800, descripcion: "Tratamiento completo de renovación de la piel" },
-      { nombre: "Debrasión con punta de diamante", precio: 30500, descripcion: "Tratamiento de microdermoabrasión para mejorar la textura de la piel" }
+      { nombre: "Limpieza de espalda", duracion: "1 hora", precio: "Consultable", descripcion: "Limpieza profunda de la zona de la espalda" },
+      { nombre: "Exfoliación corporal", precio: "Consultable", descripcion: "Tratamiento completo de renovación de la piel" },
+      { nombre: "Debrasión con punta de diamante", precio: "Consultable", descripcion: "Tratamiento de microdermoabrasión para mejorar la textura de la piel" }
     ]
   }
 };
